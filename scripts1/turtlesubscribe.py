@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 # Set linear and angular values of Turtlesim's speed and turning. 
 
 import rospy	# Needed to create a ROS node 
