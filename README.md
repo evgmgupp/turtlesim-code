@@ -36,3 +36,8 @@ turtlepath.py - Переход к 5 различным точкам.
 21.	В файл _README.md_ добавим описание действий: _nano README.md_
 22.	Примем изменения: _git commit -am “New description README.md”_ 
 23.	Отправим проект в удаленный репозиторий командой: _git push_
+
+### Пример Pull request
+
+Для примера перейдем в ветку _scripts2_ в локальном репозитории командой: _git checkout scripts2_. Перейдем в папку командой: _cd scripts2_ и создадим файл командой: _nano pull_request.md_ и напишем «Добавим для примера Pull request.». Применим изменения: _git add pull_request.md_ и сделаем commit: _git commit -am "Add pull_request.md"_. Передадим изменения в удаленный репозиторий: _git push_. Переходим на Github. Он автоматически предложит создать _pull_request_, появится зеленая кнопка «_Compare & pull request_», нажимаем на нее. В данном случае конфликтов не должно быть и будет подсвечена зеленым цветом «_Able to merge_». В описание добавим фразу «_Пример pull request._» и нажмем кнопку _Create pull request_.
+
