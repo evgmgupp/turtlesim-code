@@ -4,7 +4,6 @@
 import rospy	# Needed to create a ROS node 
 from geometry_msgs.msg import Twist    # Message that moves base 	
 
-
 class ControlTurtlesim: 
 	def __init__(self): 
 		
